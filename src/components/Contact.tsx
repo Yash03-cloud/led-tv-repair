@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Send } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -37,7 +37,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
@@ -59,8 +59,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-blue-100">+91 98765 43210</p>
-                    <p className="text-blue-100">+91 98765 43211</p>
+                    <p className="text-blue-100">+91 8010449610</p>
+                    <p className="text-blue-100">+91 9890791900</p>
                   </div>
                 </div>
 
@@ -70,7 +70,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-blue-100">shrielectronic@gmail.com</p>
+                    <p className="text-blue-100">yashshende544@gmail.com</p>
                   </div>
                 </div>
 
@@ -81,28 +81,24 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold mb-1">Address</h4>
                     <p className="text-blue-100">
-                      Main Market Road<br />
+                      front of lokmat office road beside new ingole cycle store, thakre market<br />
                       Wardha, Maharashtra 442001
                     </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <div className="bg-white bg-opacity-20 p-3 rounded-lg">
-                    <Clock className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Business Hours</h4>
-                    <p className="text-blue-100">Monday - Saturday: 9:00 AM - 8:00 PM</p>
-                    <p className="text-blue-100">Sunday: 10:00 AM - 6:00 PM</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-8 pt-8 border-t border-white border-opacity-20">
                 <h4 className="font-semibold mb-4">Find Us on Map</h4>
-                <div className="bg-white bg-opacity-10 rounded-lg p-4 h-48 flex items-center justify-center">
-                  <MapPin className="h-16 w-16 text-white opacity-50" />
+                <div className="bg-white bg-opacity-10 rounded-lg p-4 sm:p-6 overflow-hidden h-48 sm:h-56 lg:h-64 flex items-center justify-center">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466.3987040069856!2d78.60051912229632!3d20.7431066463253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd47fb969e93147%3A0xefe3bb124cbf0f01!2sShree%20electronics%20LED%20tv%20repair%20and%20services!5e0!3m2!1sen!2sin!4v1775217553670!5m2!1sen!2sin" 
+                    className="w-full h-full rounded-lg"
+                    style={{border:0}} 
+                    allowFullScreen 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade">
+                  </iframe>
                 </div>
               </div>
             </div>

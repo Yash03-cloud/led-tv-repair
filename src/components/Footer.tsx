@@ -96,8 +96,8 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-orange-500 flex-shrink-0 mt-0.5" />
                 <p className="text-gray-400">
-                  Main Market Road<br />
-                  Wardha, Maharashtra 442001
+                  front of lokmat office road beside new ingole cycle store, thakre market.<br />
+                  Wardha, Maharashtra 442001.
                 </p>
               </li>
             </ul>
