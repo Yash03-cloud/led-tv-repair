@@ -1,4 +1,5 @@
 import { Award, Users, CheckCircle, Shield } from 'lucide-react';
+import tvRepairPhoto from '../photo/TV-repair-photo.jpg';
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="src\photo\TV-repair-photo.jpg"
+              src={tvRepairPhoto}
               alt="TV Repair Workshop"
               className="rounded-lg shadow-xl w-full h-96 object-cover"
             />

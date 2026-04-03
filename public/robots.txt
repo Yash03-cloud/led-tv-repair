@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shree-electronics-tv-repair.netlify.app/sitemap.xml
